@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Icinga L10n 0691d18\n"
 "Report-Msgid-Bugs-To: https://github.com/Icinga/L10n/issues\n"
 "POT-Creation-Date: 2021-07-07 15:57+0000\n"
-"PO-Revision-Date: 2021-07-14 08:30-0400\n"
+"PO-Revision-Date: 2021-07-15 11:23-0400\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -17,7 +17,7 @@ msgstr ""
 "X-Poedit-Basepath: ../../../src\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 2.2.1\n"
 "X-Poedit-SearchPath-0: sources.d\n"
 
 #: sources.d/icingadb-web/application/controllers/CommandTransportController.php:30
@@ -1286,8 +1286,8 @@ msgstr "Heures"
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/show/components/downtime.phtml:21
 msgid "Schedule downtime"
 msgid_plural "Schedule downtimes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Planifier une interruption"
+msgstr[1] "Planifier des interruptions"
 
 #: sources.d/icingadb-web/application/forms/Command/Object/SendCustomNotificationForm.php:34
 #: sources.d/icingaweb2/modules/monitoring/application/forms/Command/Object/SendCustomNotificationCommandForm.php:21
@@ -1635,7 +1635,7 @@ msgstr ""
 #: sources.d/icingaweb2/modules/monitoring/configuration.php:121
 #: sources.d/icingaweb2/modules/monitoring/configuration.php:209
 msgid "Servicegroups"
-msgstr ""
+msgstr "Groupes de services"
 
 #: sources.d/icingadb-web/configuration.php:166
 #: sources.d/icingaweb2/modules/monitoring/configuration.php:307
@@ -1802,7 +1802,7 @@ msgstr ""
 
 #: sources.d/icingadb-web/library/Icingadb/Common/CommandActions.php:219
 msgid "Send Custom Notification"
-msgstr ""
+msgstr "Envoyer une notification personnalisée"
 
 #: sources.d/icingadb-web/library/Icingadb/Common/DetailActions.php:53
 #, php-format
@@ -1891,7 +1891,7 @@ msgstr ""
 #: sources.d/icingadb-web/library/Icingadb/Common/ServiceStates.php:115
 #: sources.d/icingaweb2-module-director/application/locale/translateMe.php:12
 msgid "unknown"
-msgstr ""
+msgstr "inconnu"
 
 #: sources.d/icingadb-web/library/Icingadb/Model/AcknowledgementHistory.php:53
 msgid "Acknowledgement Environment Id (History)"
@@ -5332,7 +5332,7 @@ msgstr ""
 #: sources.d/icingaweb2/library/Icinga/Web/View/AppHealth.php:86
 #: sources.d/icingaweb2/modules/monitoring/library/Monitoring/Object/Service.php:201
 msgid "UNKNOWN"
-msgstr ""
+msgstr "INCONNU"
 
 #: sources.d/icingaweb2-module-businessprocess/application/forms/BpConfigForm.php:41
 msgid ""
@@ -10297,7 +10297,7 @@ msgstr ""
 #: sources.d/icingaweb2/modules/monitoring/application/forms/StatehistoryForm.php:133
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/tactical/index.phtml:25
 msgid "Up"
-msgstr ""
+msgstr "Actif(s)"
 
 #: sources.d/icingaweb2-module-director/library/Director/IcingaConfig/StateFilterSet.php:27
 #: sources.d/icingaweb2/application/views/scripts/navigation/index.phtml:54
@@ -10329,7 +10329,7 @@ msgstr ""
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/partials/object/detail-content.phtml:6
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/services/show.phtml:23
 msgid "Problem handling"
-msgstr ""
+msgstr "Interventions"
 
 #: sources.d/icingaweb2-module-director/library/Director/IcingaConfig/TypeFilterSet.php:28
 #: sources.d/icingaweb2/modules/monitoring/application/controllers/EventController.php:429
@@ -11394,7 +11394,7 @@ msgstr ""
 #: sources.d/icingaweb2-module-director/library/Director/Web/Form/DirectorObjectForm.php:336
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/partials/object/detail-content.phtml:35
 msgid "Check execution"
-msgstr ""
+msgstr "Vérification"
 
 #: sources.d/icingaweb2-module-director/library/Director/Web/Form/DirectorObjectForm.php:626
 #, php-format
@@ -19273,11 +19273,11 @@ msgstr ""
 
 #: sources.d/icingaweb2/modules/monitoring/application/controllers/TacticalController.php:82
 msgid "Hosts Down"
-msgstr ""
+msgstr "Hôtes inactifs"
 
 #: sources.d/icingaweb2/modules/monitoring/application/controllers/TacticalController.php:97
 msgid "Services Critical"
-msgstr ""
+msgstr "Services critiques"
 
 #: sources.d/icingaweb2/modules/monitoring/application/controllers/TimelineController.php:24
 msgid "Show the number of historical event records grouped by time and type"
@@ -19942,7 +19942,7 @@ msgstr "2 ans"
 
 #: sources.d/icingaweb2/modules/monitoring/application/forms/StatehistoryForm.php:81
 msgid "To"
-msgstr ""
+msgstr "À"
 
 #: sources.d/icingaweb2/modules/monitoring/application/forms/StatehistoryForm.php:84
 msgid "Today"
@@ -19962,17 +19962,17 @@ msgstr ""
 #: sources.d/icingaweb2/modules/monitoring/application/views/helpers/HostFlags.php:10
 #: sources.d/icingaweb2/modules/monitoring/application/views/helpers/ServiceFlags.php:10
 msgid "Unhandled"
-msgstr ""
+msgstr "Non géré"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/helpers/HostFlags.php:19
 #: sources.d/icingaweb2/modules/monitoring/application/views/helpers/ServiceFlags.php:19
 msgid "Notifications Disabled"
-msgstr ""
+msgstr "Notifications désactivées"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/helpers/HostFlags.php:22
 #: sources.d/icingaweb2/modules/monitoring/application/views/helpers/ServiceFlags.php:22
 msgid "In Downtime"
-msgstr ""
+msgstr "Interruption en cours"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/helpers/HostFlags.php:26
 #: sources.d/icingaweb2/modules/monitoring/application/views/helpers/ServiceFlags.php:26
@@ -20031,7 +20031,7 @@ msgstr ""
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/alertsummary/index.phtml:29
 msgid "Trend"
-msgstr ""
+msgstr "Tendance"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/alertsummary/index.phtml:33
 msgid "Average"
@@ -20100,7 +20100,7 @@ msgstr ""
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/form/reorder-command-transports.phtml:44
 #, php-format
 msgid "Type: %s"
-msgstr ""
+msgstr "Type: %s"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/config/index.phtml:52
 #, php-format
@@ -20232,7 +20232,7 @@ msgstr ""
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/downtime/show.phtml:151
 msgid "In effect"
-msgstr ""
+msgstr "En cours"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/downtimes/show.phtml:11
 #, php-format
@@ -20249,7 +20249,7 @@ msgstr ""
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/form/reorder-command-transports.phtml:19
 msgid "Transport"
-msgstr ""
+msgstr "Transport"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/form/reorder-command-transports.phtml:40
 #, php-format
@@ -20372,7 +20372,7 @@ msgstr ""
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/health/stats.phtml:86
 msgid "Per Host"
-msgstr ""
+msgstr "Par hôte"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/health/stats.phtml:103
 msgid "Active checks"
@@ -20385,7 +20385,7 @@ msgstr ""
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/health/stats.phtml:108
 msgid "Checks"
-msgstr ""
+msgstr "Vérifications"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/health/stats.phtml:129
 msgid "Passive checks"
@@ -20416,7 +20416,7 @@ msgstr[1] ""
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/hosts/show.phtml:63
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/services/show.phtml:62
 msgid "Add comments"
-msgstr ""
+msgstr "Ajouter des commentaires"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/hosts/show.phtml:81
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/services/show.phtml:80
@@ -20511,7 +20511,7 @@ msgstr ""
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/show/contact.phtml:26
 #, php-format
 msgid "Send a mail to %s"
-msgstr ""
+msgstr "Envoyer un courriel à %s"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/list/downtimes.phtml:19
 msgid "No downtimes found matching the filter."
@@ -20692,7 +20692,7 @@ msgstr ""
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/list/notifications.phtml:92
 #, php-format
 msgid "Sent to %s"
-msgstr ""
+msgstr "Envoyé à %s"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/list/notifications.phtml:100
 msgid "Not sent out to any contact"
@@ -20715,7 +20715,7 @@ msgstr ""
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/list/servicegrid.phtml:107
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/list/servicegrid.phtml:128
 msgid "Load more"
-msgstr ""
+msgstr "Charger plus"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/list/servicegroup-grid.phtml:18
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/list/servicegroups.phtml:21
@@ -20834,7 +20834,7 @@ msgstr ""
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/partials/comment/comment-detail.phtml:48
 msgid "by"
-msgstr ""
+msgstr "par"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/partials/comment/comment-detail.phtml:55
 #, php-format
@@ -20885,7 +20885,7 @@ msgstr ""
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/partials/downtime/downtime-header.phtml:66
 #, php-format
 msgid "expires %s"
-msgstr ""
+msgstr "expire %s"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/partials/downtime/downtime-header.phtml:70
 msgid "This downtime is flexible"
@@ -20917,7 +20917,7 @@ msgstr ""
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/partials/event-history.phtml:60
 msgid "NOTIFICATION"
-msgstr ""
+msgstr "NOTIFICATION"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/partials/event-history.phtml:64
 msgctxt "tooltip"
@@ -21040,7 +21040,7 @@ msgstr ""
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/partials/object/host-header.phtml:47
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/partials/object/service-header.phtml:35
 msgid "IPv4 address"
-msgstr ""
+msgstr "Adresse IPv4"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/partials/object/quick-actions.phtml:58
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/show/components/comments.phtml:14
@@ -21105,7 +21105,7 @@ msgstr ""
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/show/components/checkstatistics.phtml:7
 msgid "Last check"
-msgstr ""
+msgstr "Dernière vérification"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/show/components/checkstatistics.phtml:12
 msgid "Check result is late"
@@ -21113,11 +21113,11 @@ msgstr ""
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/show/components/checkstatistics.phtml:22
 msgid "Next check"
-msgstr ""
+msgstr "Prochaine vérification"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/show/components/checkstatistics.phtml:22
 msgid "Next update"
-msgstr ""
+msgstr "Prochaine mise à jour"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/show/components/checkstatistics.phtml:28
 #, php-format
@@ -21126,7 +21126,7 @@ msgstr ""
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/show/components/checkstatistics.phtml:66
 msgid "Check attempts"
-msgstr ""
+msgstr "Vérifications"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/show/components/checkstatistics.phtml:69
 msgid "hard state"
@@ -21138,11 +21138,11 @@ msgstr ""
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/show/components/checkstatistics.phtml:75
 msgid "Check execution time"
-msgstr ""
+msgstr "Temps d'exécution"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/show/components/checkstatistics.phtml:82
 msgid "Check latency"
-msgstr ""
+msgstr "Latence"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/show/components/checktimeperiod.phtml:4
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/show/components/checktimeperiod.phtml:15
@@ -21157,7 +21157,7 @@ msgstr ""
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/show/components/contacts.phtml:35
 #: sources.d/icingaweb2/modules/monitoring/configuration.php:231
 msgid "Contactgroups"
-msgstr ""
+msgstr "Groupes de contacts"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/show/components/downtime.phtml:54
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/show/components/downtime.phtml:68
@@ -21185,12 +21185,12 @@ msgstr ""
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/show/components/notifications.phtml:10
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/show/components/notifications.phtml:25
 msgid "Send notification"
-msgstr ""
+msgstr "Envoyer une notification"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/show/components/notifications.phtml:49
 #, php-format
 msgid "A notification has been sent for this issue %s."
-msgstr ""
+msgstr "Une notification a été envoyée pour cet incident %s."
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/show/components/notifications.phtml:54
 #, php-format
@@ -21208,7 +21208,7 @@ msgstr ""
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/show/components/perfdata.phtml:2
 msgid "Performance data"
-msgstr ""
+msgstr "Données de performance"
 
 #: sources.d/icingaweb2/modules/monitoring/application/views/scripts/show/components/reachable.phtml:4
 msgid "Reachable"
